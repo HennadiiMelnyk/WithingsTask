@@ -1,0 +1,69 @@
+Exercise 1
+
+You have an UTF8 encoded string input.
+
+Example:
+
+"50 69 6b 41 70 70 44 65 6d 6f 5f 34 2e 31 35 2e 61 70 6b"
+
+And a non-encoded String
+
+Example:
+
+"Withings"
+
+Create a function which outputs the first index of the non-encoded String contained in the encoded String.
+
+Examples:
+
+("49 20 6c 6f 76 65 20 57 69 74 68 69 6e 67 73", "Withings") -> 7
+("57 69 74 68 69 6e 67 73 20 68 69 72 65 64 20 6d 65", "Withings") -> 0
+("49 20 65 61 74 20 70 61 73 74 61", "eat") -> 2
+
+Exercise 2
+
+Create a ".txt" file with this content :
+
+[706f7069706f]Hi, my name is Paul
+[617a65727479]Hey ! I heard your new song, it's fantastic !
+[6e6f706e6f70]I hate it !
+[706f7069706f]Hi, Paul
+[706f7069706f]How was your day
+[706f7069706f]Fine and you ?
+[617a65727479]Thank god, I was not sure.
+[706f7069706f]Really I heard you had an accident !?
+[617a65727479]Please let me know next time
+[706f7069706f]No it's fake news, don't worry
+[6e6f706e6f70]What are you talking about ?
+[617a65727479]Sure, no problem.
+[706f7069706f]Oh cool, I got scared, take care !
+[6e6f706e6f70]Let me be !
+[617a65727479]I have to go, don't forget me
+[706f7069706f]Thanks.
+[617a65727479]Bye
+[6e6f706e6f70]...
+This file contains conversations, prefixed by an identifier.
+
+Create a function which parses this file and sort the conversations by identifier in a "Map".
+
+The map key is the conversation identifier, the value is an array of the converation's messages.
+
+This is the function prototype:
+
+public Map<String, List<String>> parseConversations(filePath: String) {
+
+
+
+}
+
+Example output :
+
+key: "706f7069706f" value: ["Hi, my name is Paul",
+"Hi, Paul",
+"How was your day",
+"Fine and you ?",
+"Really I heard you had an accident !?",
+"No it's fake news, don't worry",
+"Oh cool, I got scared, take care !",
+"Thanks."]
+etc..

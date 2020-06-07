@@ -1,0 +1,18 @@
+[706f7069706f]Hi, my name is Paul
+[617a65727479]Hey ! I heard your new song, it's fantastic !
+[6e6f706e6f70]I hate it !
+[706f7069706f]Hi, Paul
+[706f7069706f]How was your day
+[706f7069706f]Fine and you ?
+[617a65727479]Thank god, I was not sure.
+[706f7069706f]Really I heard you had an accident !?
+[617a65727479]Please let me know next time
+[706f7069706f]No it's fake news, don't worry
+[6e6f706e6f70]What are you talking about ?
+[617a65727479]Sure, no problem.
+[706f7069706f]Oh cool, I got scared, take care !
+[6e6f706e6f70]Let me be !
+[617a65727479]I have to go, don't forget me
+[706f7069706f]Thanks.
+[617a65727479]Bye
+[6e6f706e6f70]...
